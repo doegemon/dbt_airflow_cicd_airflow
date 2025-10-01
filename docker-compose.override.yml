@@ -1,0 +1,10 @@
+services:
+  scheduler:
+    volumes:
+      - ./dbt/dbt_airflow_dw:/usr/local/airflow/dbt/dbt_airflow_dw
+  dag-processor:
+    volumes:
+      - ./dbt/dbt_airflow_dw:/usr/local/airflow/dbt/dbt_airflow_dw
+  postgres:
+    ports:
+      - "5434:5432"
