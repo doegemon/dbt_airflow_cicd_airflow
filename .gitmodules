@@ -1,0 +1,3 @@
+[submodule "dbt/dbt_airflow_cicd_data_warehouse"]
+	path = dbt/dbt_airflow_cicd_data_warehouse
+	url = https://github.com/doegemon/dbt_airflow_cicd_data_warehouse
